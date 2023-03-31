@@ -1,0 +1,15 @@
+ Atributo Atômico/simples: Def. ATRIBUTO SIMPLES ou ATÔMICO é um atributo
+básico e indivisível.
+
+- Atributo composto: Def. ATRIBUTO COMPOSTO é um atributo que pode ser
+dividido em partes com significados diferentes
+Exemplo: employee.name, pessoa.endereço.
+
+- atributo monovalorado: São atributos que possuem apenas um valor para uma entidade em particular. Por exemplo, a idade é um atributo monovalorado para uma entidade pessoa.
+
+- Atributo multivalorado: Os atributos multivalorados no modelo ER são aqueles em que seu conteúdo é formado por mais de um valor. No exemplo da Figura 2, o atributo Telefone é um exemplo de atributo Multivalorado. Nesse caso, um empregado pode ter mais de um telefone.
+
+- Atributo derivado: ATRIBUTO DERIVADO é um tipo de atributo cujo valor pode ser obtido de outros atributos ou relacionamentos. Diante disso não precisa ser armazenado. OBS: no DER um Atributo Derivado é representado por uma elipse com contorno em linha tracejada. O ATRIBUTO ARMAZENADO é aquele cujo valor será fisicamente no BD.
+
+
+- Atributo identificador: Atributos identificadores são os atributos que tem a finalidade de identificar uma determinada informação. Mesmo no modelo lógico sempre devemos indicar um atributo que seja o responsável por identificar a informação única de uma determinada entidade e que seja obrigatório e não tenha valores repetidos.
