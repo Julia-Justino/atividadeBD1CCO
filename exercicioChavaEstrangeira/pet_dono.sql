@@ -71,7 +71,7 @@ UPDATE tbDono SET telefoneFixo = "4544879879454" WHERE idDono = 3;
 
 -- - Exibir os dados dos clientes para verificar se alterou.
 SELECT * FROM tbDono;
-
+SELECT * FROM tbPet;
 -- - Exibir os dados dos pets e dos seus respectivos donos
 SELECT * FROM tbPet JOIN tbDono ON fkDono = idDono;
 

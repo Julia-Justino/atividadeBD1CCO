@@ -43,6 +43,8 @@ SELECT * FROM tbPessoa WHERE idiomaPessoa = 'PORTUGUÊS';
 -- Exiba os dados da tabela Gasto, de forma que os gastos mais recentes apareçam primeiro.
 SELECT * FROM tbGastos ORDER BY dataGasto DESC;
 
+SELECT * FROM tbGastos JOIN tbPessoa ON fkpessoa = idPessoa;
+
 --  Exiba os dados das pessoas e dos seus gastos correspondentes.
 SELECT * FROM tbGastos JOIN tbPessoa ON fkpessoa = idPessoa WHERE idPessoa = 1;
 
